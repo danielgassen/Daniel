@@ -37,7 +37,7 @@ Setting up a git and github repository
 4j. In the command prompt, cd into your new folder
 4k. Copy your new address from github. (you will need to refresh your page)
 4l. paste your new address into the command prompt after you type, "git clone."
-4l part II, cd into the folder you just cloned in.
+4l part II, cd into the folder you just cloned in. (the folder you just cloned from git hub is within the new folder)
 4m. Check your status with "git status".
 
 5. add a few more changes to your text file.
@@ -47,3 +47,5 @@ Setting up a git and github repository
 5d. in the command prompt, "git push"
 
 And bring up your github repository showing your (graphs tab, network graph.)
+
+test fo the push repository please ignore .
