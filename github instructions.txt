@@ -1,0 +1,49 @@
+Setting up a git and github repository
+
+1. Go to Github.
+2. Click on the "New Repository" button.
+2a. Give it a name.
+2b. Provide Description
+2c. Ignore public vs private and any initilize options.
+2d. Click "create repository"
+3. Follow the "…or create a new repository on the command line" instructions:
+3a. Open the command prompt. (windows key + r, then cmd)
+3b. change directories to desktop
+3c. Make a new directory that shares the name of your repository (use mkdir to create new directory)
+3c part II, cd into your new repository.
+3d. Now follow the instructions...
+3e. Copy and paste into your command prompt, "echo "# StoryTimeSteve" >> README.md" and press enter.
+3f. Remember that silence is golden in the terminal environment.
+3g. Copy and paste into your command prompt, "git init" and press enter.
+3h. It tells you, "Initialized empty Git repository in C:/Users/LAB/Desktop/StoryTimeSteve/.git/"
+3i. Copy and paste into your command prompt, "git add README.md" and press enter.
+3j. Remember that silence is golden in the terminal environment.
+3k. Copy and paste into your command prompt, "git commit -m "first commit"" and press enter.
+3l. Any warning may be ignored, errors must be fixed. If you can't commit because of an error, you will need to put in your user name and email.
+3m. Copy and paste into your command prompt, "git remote add origin https://github.com/jeremy-evert/StoryTimeSteve.git" and press enter.
+3n. Copy and paste into your command prompt, "git push -u origin master" and press enter.
+
+4. Now we use our repository.
+4a. Open a new notepad.
+4b. Save the file to our new repository folder.
+4c. Add some text to the file.
+4d. in the command prompt, "git add ."
+4e. in the command prompt, "git commit -m "added some more text.""
+4f. in the command prompt, "git push"
+4f part II, in the command prompt, type "exit"
+4g. delete the folder from the desktop.
+4h. empty the trash.
+4i. Make a new folder on the destop that is called "storytimeSecondAttempt".
+4j. In the command prompt, cd into your new folder
+4k. Copy your new address from github. (you will need to refresh your page)
+4l. paste your new address into the command prompt after you type, "git clone."
+4l part II, cd into the folder you just cloned in.
+4m. Check your status with "git status".
+
+5. add a few more changes to your text file.
+5a. save changes and close file.
+5b. in the command prompt, "git add ."
+5c. in the command prompt, "git commit -m "added a few more lines.""
+5d. in the command prompt, "git push"
+
+And bring up your github repository showing your (graphs tab, network graph.)
